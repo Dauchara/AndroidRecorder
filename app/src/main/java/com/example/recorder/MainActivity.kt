@@ -13,5 +13,6 @@ class MainActivity : AppCompatActivity() {
 
         NavigationUI.setupWithNavController(bottom_navigation,
             Navigation.findNavController(this, R.id.nav_host_fragment_container))
+
     }
 }
